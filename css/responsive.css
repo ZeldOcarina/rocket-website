@@ -1,0 +1,322 @@
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .header-slide-content {
+        padding: 100px 0;
+    }
+    .header-slide-content h1 {
+        font-size: 45px;
+    }
+    .navbar-nav li:last-child a {
+        padding: 16px 23px !important;
+        margin-left: 30px;
+    }
+    .best-time-item {
+        margin-top: -63px;
+    }
+    .mission-section {
+        margin-top: -197px;
+        padding-bottom: 1px;
+    }
+    .founder-title br {
+        display: none;
+    }
+    .founder-items br {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .header-top ul li a {
+        display: inline-block;
+        padding: 8px;
+    }
+    .header-menu ul li:first-child {
+        display: none;
+    }
+    .header-menu ul li a {
+        display: inline-block;
+        padding: 7px 7px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .navbar-brand {
+        font-size: 36px;
+    }
+    .navbar-nav li:last-child a {
+        font-size: 14px;
+        padding: 11px 20px !important;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .header-slide-content {
+        padding: 65px 0;
+    }
+    .header-slide-content br {
+        display: none;
+    }
+    .header-slide-content h1 {
+        font-size: 35px;
+    }
+    .header-slide-content p {
+        font-size: 18px;
+    }
+    .header-slide-content a {
+        font-size: 14px;
+        margin-top: 35px;
+    }
+    .best-time-item {
+        margin-top: 0px;
+    }
+    .best-content h2 {
+        font-size: 26px;
+    }
+    .best-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mission-content br {
+        display: none;
+    }
+    .mission-section {
+        padding: 354px 0 1px;
+        margin-top: -300px;
+    }
+    .book-text p {
+        font-size: 18px;
+        color: #fff;
+        margin: 10px 0;
+    }
+    .book-text a {
+        font-size: 14px;
+        padding: 18px 30px;
+        margin-top: 8px;
+    }
+    .working-section {
+        padding: 65px 0 20px;
+    }
+    .working-text br {
+        display: none;
+    }
+    .working-text h2 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .working-text {
+        margin-bottom: 40px;
+    }
+    .latest-items {
+        margin-top: 12px;
+    }
+    .founder-title br {
+        display: none;
+    }
+    .founder-items {
+        margin-top: 45px;
+        margin-bottom: 0px;
+    }
+    .input-area {
+        padding: 40px;
+        margin-top: 30px;
+    }
+    .footer-logo a {
+        font-size: 32px;
+    }
+    .input-area {
+        padding: 20px;
+    }
+    .latest-items:hover {
+        transform: translatey(-3%);
+    }
+    .latest-text {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header-menu ul li:first-child {
+        display: none;
+    }
+    .header-menu ul li a {
+        display: inline-block;
+        padding: 7px 0;
+        color: #fff;
+        font-size: 14px;
+    }
+    .top-social-area i {
+        font-size: 11px;
+        padding: 2px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+    .navbar-nav li:last-child a {
+        font-size: 14px;
+        padding: 11px 20px !important;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .header-top ul li a {
+        display: block;
+        padding: 7px 0px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .header-slide-content {
+        padding: 120px 0 200px;
+    }
+    .header-slide-content br {
+        display: none;
+    }
+    .header-slide-content h1 {
+        font-size: 25px;
+    }
+    .header-slide-content p {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .header-slide-content a {
+        font-size: 14px;
+        margin-top: 17px;
+    }
+    .best-time-item {
+        margin-top: -124px;
+    }
+    .best-content h2 {
+        font-size: 20px;
+    }
+    .best-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .best-content-btn {
+        text-align: left;
+    }
+    .best-content-btn a {
+        font-size: 14px;
+        padding: 18px 20px;
+    }
+    .mission-content br {
+        display: none;
+    }
+    .mission-content h2 {
+        font-size: 33px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mission-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .mission-section {
+        padding: 270px 0 1px;
+        margin-top: -212px;
+    }
+    .mission-content br {
+        display: none;
+    }
+    .mission-content-area {
+        margin-bottom: 44px;
+    }
+    .over-lay {
+        padding: 50px 0;
+    }
+    .book-img {
+        transform: translate(0%, 0%);
+        margin-bottom: 20px;
+    }
+    .book-text h2 {
+        font-size: 25px;
+    }
+    .book-text p {
+        font-size: 16px;
+    }
+    .book-text a {
+        padding: 13px 12px;
+        margin-top: 20px;
+    }
+    .working-section {
+        padding: 45px 0 20px;
+    }
+    .working-text {
+        margin-bottom: 30px;
+    }
+    .working-text br {
+        display: none;
+    }
+    .working-text h2 {
+        font-size: 29px;
+        margin-bottom: 12px;
+    }
+    .working-text p {
+        font-size: 16px;
+    }
+    .latest-items {
+        margin-top: 0px;
+    }
+    .title h2 {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+    .latest-section {
+        background: #0A4672;
+        padding: 40px 0;
+    }
+    .founder-section {
+        padding: 40px 0;
+    }
+    .founder-title br {
+        display: none;
+    }
+    .founder-title h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .founder-title p {
+        font-size: 14px;
+    }
+    .founder-items {
+        margin-top: 32px;
+        margin-bottom: 0px;
+    }
+    .inptmbl {
+        padding: 40px 20px;
+        overflow: hidden;
+    }
+    .founder-items br {
+        display: none;
+    }
+    .footer-logo a {
+        font-size: 27px;
+    }
+    .input-area h2 {
+        font-size: 20px;
+    }
+    .input-area p {
+        font-size: 17px;
+    }
+    .input-form {
+        margin-top: 5px;
+    }
+    .input-form input,
+    .input-form textarea {
+        margin: 0 0 13px 0;
+    }
+    .input-form [type="submit"] {
+        width: 60%;
+        padding: 15px 4px;
+        font-size: 14px;
+    }
+    .footer-text p {
+        margin-top: 10px;
+    }
+    .scroll-to-top {
+        display: none;
+    }
+    .latest-items:hover {
+        transform: translatey(-2%);
+    }
+    .input-form input,
+   .input-form textarea {
+        padding: 12px 15px;
+    }
+}

@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* header-section start */
+
+.header-section {
+  background: #fff;
+}
+
+.header-top {
+  background: #0a4672;
+  padding: 10px 0;
+}
+
+.header-top ul li {
+  display: inline-block;
+  color: #fff;
+}
+
+.header-top ul li a {
+  display: block;
+  padding: 7px 8px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.header-top ul li a:hover {
+  opacity: 0.8;
+}
+
+.header-top-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-social-area i {
+  font-size: 21px;
+  color: #fff;
+  padding: 0 5px;
+  transition: 0.2s;
+}
+
+.top-social-area i:hover {
+  color: #faf6f1;
+}
+
+.header-main-menu {
+  background-image: url(https://cdn.salesjet.io/1145/funnel_files/1447/937_header-slide.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-nav-area {
+  padding: 19px 0;
+  background: #ffffff8a;
+}
+
+.navbar-brand {
+  max-width: 200px;
+}
+
+.navbar-nav li a {
+  font-weight: 400;
+  color: #000 !important;
+  transition: 0.2s;
+}
+
+.navbar-nav li a:hover {
+  opacity: 0.8;
+}
+
+.navbar-nav li:last-child a {
+  font-size: 14px;
+  font-weight: 600;
+  background: #ffc700;
+  padding: 16px 45px !important;
+  display: inline-block;
+  border-radius: 6px;
+  margin-left: 40px;
+}
+
+.header-slide-content {
+  padding: 256px 0;
+}
+
+.header-slide-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000;
+}
+
+.header-slide-content p {
+  font-size: 20px;
+  color: #000;
+  line-height: 27px;
+  margin-top: 18px;
+}
+
+.header-slide-content a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 50px;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.header-slide-content a:hover {
+  opacity: 0.7;
+}
+
+.header-slide-content i {
+  margin-left: 3px;
+}
+
+/* header-section end */
+
+/* best-time-area start */
+
+.best-time-item {
+  background: #0a4672;
+  border-radius: 12px;
+  padding: 44px;
+  margin-top: -112px;
+  z-index: 999;
+  position: relative;
+}
+
+.best-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.best-content p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.best-content-btn {
+  text-align: center;
+}
+
+.best-content-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  background: #ffc700;
+  padding: 24px 45px;
+  color: #000;
+  display: inline-block;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.best-content-btn a:hover {
+  background: #f1c937;
+  color: #181301;
+}
+
+.best-content-btn i {
+  margin-left: 10px;
+}
+
+/* best-time-area end */
+
+/* mission-section start */
+
+.mission-section {
+  background: #faf6f1;
+  padding: 245px 0 80px;
+  margin-top: -150px;
+  z-index: -111;
+}
+
+.mission-content-area {
+  margin-bottom: 94px;
+}
+
+.mission-img img {
+  border-radius: 100%;
+}
+
+.mission-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0a4672;
+  margin-bottom: 40px;
+}
+
+.mission-content p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* mission-section end */
+
+/* book-section start */
+
+.book-section {
+  background-image: url(https://cdn.salesjet.io/1145/funnel_files/1447/932_book.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.over-lay {
+  background: rgba(10, 70, 114, 0.8);
+  padding: 30px 0;
+}
+
+.book-img {
+  transform: translate(0, -19%);
+}
+
+.book-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.book-text p {
+  font-size: 24px;
+  color: #fff;
+  line-height: 32px;
+  margin: 19px 0;
+}
+
+.book-text a {
+  font-size: 16px;
+  font-weight: 600;
+  background: #ffc700;
+  padding: 24px 45px;
+  color: #000;
+  display: inline-block;
+  border-radius: 6px;
+  margin-top: 50px;
+  transition: 0.2s;
+}
+
+.book-text a:hover {
+  opacity: 0.8;
+}
+
+.book-text i {
+  margin-left: 10px;
+}
+
+/* book-section end */
+
+/* working-section start */
+
+.working-section {
+  background: #e5e5e5;
+  padding: 100px 0 20px;
+}
+
+.working-text {
+  margin-bottom: 80px;
+}
+
+.working-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0a4672;
+  margin-bottom: 40px;
+}
+
+.working-text p {
+  font-size: 20px;
+}
+
+/* working-section end */
+
+/* latest-section start */
+
+.latest-section {
+  background: #0a4672;
+  padding: 65px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 44px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.latest-items {
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 80px;
+  transition: 1s;
+  margin-bottom: 30px;
+}
+
+.latest-items:hover {
+  transform: translatey(-5%);
+}
+
+.latest-img img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.latest-text {
+  padding: 56px;
+}
+
+.latest-text h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.latest-text p {
+  line-height: 21px;
+  margin-bottom: 27px;
+  text-align: justify;
+}
+
+.latest-text a {
+  font-size: 14px;
+  font-weight: 600;
+  background: #ffc700;
+  padding: 14px 45px;
+  color: #000;
+  display: inline-block;
+  border-radius: 6px;
+  margin-top: 12px;
+  transition: 0.2s;
+}
+
+.latest-text a:hover {
+  background: #f1ce4c;
+}
+
+/* latest-section end */
+
+/* founder-section start */
+
+.founder-section {
+  background: #e5e5e5;
+  padding: 80px 0 104px;
+}
+
+.founder-title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0a4672;
+  margin-bottom: 40px;
+}
+
+.founder-title p {
+  font-size: 20px;
+}
+
+.founder-items {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.founder-items a {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+  display: block;
+  color: #000;
+  transition: 0.2s;
+}
+
+.founder-items a:hover {
+  opacity: 0.7;
+}
+
+/* founder-section end */
+
+/* form-section start */
+
+.input-area {
+  background: #0a4672;
+  padding: 70px;
+  border-radius: 12px;
+  margin-top: 90px;
+}
+
+.input-form label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  margin: 0;
+}
+
+.input-area h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.input-area p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.input-form input,
+textarea {
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 19px;
+  margin: 0 0 32px 0;
+}
+
+.input-form {
+  margin-top: 0;
+}
+
+.input-form [type="submit"] {
+  font-weight: 600;
+  display: inline-block;
+  width: 50%;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background: #ffc700;
+  border: none;
+  padding: 20px 10px;
+}
+
+.input-form [type="submit"]:hover {
+  background: #f1c937;
+}
+
+.input-form i {
+  margin-left: 20px;
+}
+
+/* form-section end */
+
+/* footer-section start */
+
+.footer-section {
+  background: #0a4672;
+  padding: 38px 0;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  max-width: 200px;
+}
+
+.footer-text p {
+  font-family: "Nunito", sans-serif;
+  color: #ffffffab;
+}
+
+.scrolltotop {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 8px;
+  font-size: 22px;
+  color: #ffffff;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.input-area .row {
+  --bs-gutter-x: 90px;
+}
+
+/* footer-section end */
