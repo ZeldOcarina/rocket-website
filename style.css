@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Open+Sans:wght@100;300;400;600;700;800&display=swap");
 h1,
 h2,
 h3,
@@ -108,6 +108,12 @@ body {
 
 .header-slide-content {
   padding: 256px 0;
+  width: 70%;
+  /* margin: 0 auto; */
+}
+
+.header-slide-content > * {
+  transform: translateY(-55px);
 }
 
 .header-slide-content h1 {
@@ -198,8 +204,8 @@ body {
 
 .mission-section {
   background: #faf6f1;
-  padding: 245px 0 80px;
-  margin-top: -150px;
+  padding: 150px 0 80px;
+  /* margin-top: -150px; */
   z-index: -111;
 }
 
@@ -234,46 +240,50 @@ body {
   background-repeat: no-repeat;
 }
 
+.book-section__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.book-section__title {
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: "Open Sans" sans-serif;
+}
+
 .over-lay {
   background: rgba(10, 70, 114, 0.8);
   padding: 30px 0;
 }
 
-.book-img {
-  transform: translate(0, -19%);
+.book-item {
+  color: white;
+  width: 300px;
+  display: flex;
+  gap: 0.5rem;
 }
 
-.book-text h2 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #fff;
+.book-item__number {
+  font-size: 80px;
+  opacity: 0.1;
+  transform: translate(0, -35px);
 }
 
-.book-text p {
-  font-size: 24px;
-  color: #fff;
-  line-height: 32px;
-  margin: 19px 0;
+.book-item__right-section {
 }
 
-.book-text a {
-  font-size: 16px;
-  font-weight: 600;
-  background: #ffc700;
-  padding: 24px 45px;
-  color: #000;
-  display: inline-block;
-  border-radius: 6px;
-  margin-top: 50px;
-  transition: 0.2s;
+.book-item__title {
+  margin-bottom: 10px;
 }
 
-.book-text a:hover {
-  opacity: 0.8;
-}
-
-.book-text i {
-  margin-left: 10px;
+.book-item__text {
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 /* book-section end */
@@ -305,8 +315,7 @@ body {
 /* latest-section start */
 
 .latest-section {
-  background: #0a4672;
-  padding: 65px 0;
+  margin-bottom: -150px;
 }
 
 .title {
@@ -324,13 +333,13 @@ body {
 .latest-items {
   background: #fff;
   border-radius: 12px;
-  margin-top: 80px;
+  transform: translateY(-160px);
   transition: 1s;
   margin-bottom: 30px;
 }
 
 .latest-items:hover {
-  transform: translatey(-5%);
+  transform: translateY(calc(-160px + -10%));
 }
 
 .latest-img img {
@@ -376,7 +385,7 @@ body {
 
 .founder-section {
   background: #e5e5e5;
-  padding: 80px 0 104px;
+  padding: 0 0 104px;
 }
 
 .founder-title h2 {
